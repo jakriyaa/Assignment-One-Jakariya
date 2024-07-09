@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: Azeret Mono;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Banner Section start Here */
+.background-container {
+  width: 1440px;
+  height: 652px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  /* margin-top: 20px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("assets/Hero-bg.png");
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content-image {
+  width: 240.28px;
+  height: 240px;
+  margin-top: 28px;
+}
+.banner-content h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: rgb(13, 19, 33);
+  text-align: center;
+  margin-top: 32px;
+}
+.banner-content p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+}
+.btn {
+  padding: 21px 24px 21px 24px;
+  margin: 32px 0px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+}
+/* Header Banner Section End Here */
+
+/* Why Web Development??*/
+.descrive-container {
+  width: 1140px;
+  height: 1393px;
+  margin: 0 auto;
+  margin-top: 74px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px 80px 97px;
+}
+.title-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+.title-div h3 {
+  font-size: 32px;
+  font-weight: 800;
+  color: rgb(13, 19, 33);
+  margin: 24px 0px;
+}
+.title-div p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
+  margin: 24px 0px;
+  text-align: center;
+}
+/* Feature One */
+.development-feature1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 946;
+  height: 336;
+  padding: 48px;
+  border-radius: 16px;
+
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin-top: 38pxpx;
+}
+.development-feature1-content h4 {
+  font-size: 24px;
+  font-weight: 700px;
+  color: rgba(13, 19, 33, 0.7);
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.development-feature1-content p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin-top: 16px;
+}
+.development-feature1-content button {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  position: static;
+  width: 171px;
+  height: 47px;
+  padding: 12px 20px 12px 20px;
+  margin: 32px 0px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.development-feature1-content img {
+  position: relatives;
+  width: 274.17px;
+  height: 240px;
+  flex: none;
+}
+/* Feature Two */
+.development-feature2 {
+  width: 946;
+  height: 336;
+  padding: 48px;
+  margin-top: 32px;
+  display: flex;
+  border-radius: 16px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.development-feature2-img {
+  width: 223.2px;
+  height: 208.85px;
+}
+.development-feature2-content h4 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin: 32px;
+}
+.development-feature2-content p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  opacity: 0.7;
+  margin-left: 32px;
+}
+.development-feature2-content button {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  position: static;
+  width: 171px;
+  height: 47px;
+  padding: 12px 20px 12px 20px;
+  margin: 32px 0px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  margin-left: 32px;
+  margin-bottom: 0px;
+}
+
+/* Feature Three */
+.development-feature3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 946;
+  height: 336;
+  padding: 48px;
+  border-radius: 16px;
+
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin-top: 32px;
+}
+.development-feature3-content h4 {
+  font-size: 24px;
+  font-weight: 700px;
+  color: rgba(13, 19, 33, 0.7);
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.development-feature3-content p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin-top: 16px;
+}
+.development-feature3-content button {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  position: static;
+  width: 171px;
+  height: 47px;
+  padding: 12px 20px 12px 20px;
+  margin: 32px 0px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.development-feature3-content img {
+  position: relatives;
+  width: 274.17px;
+  height: 240px;
+  flex: none;
+}
