@@ -564,6 +564,7 @@ body {
   letter-spacing: 0%;
   text-align: center;
   background: rgb(255, 255, 255);
+  border: none;
 }
 
 /* Footer Section */
